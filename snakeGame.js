@@ -3,10 +3,6 @@ import { update as updateFood, draw as drawFood } from './food.js'
 import { outsideGrid } from './gameGrid.js'
 
 const gridSize = 22;
-
-
-
-
 let lastRenderTime = 0;
 let gameOver = false;
 const gameBoard = document.getElementById('game-board');
